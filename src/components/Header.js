@@ -3,7 +3,7 @@ import logo from '../images/darkSchool.png';
 import { VscSearch } from "react-icons/vsc";
 import { FaUserAlt } from "react-icons/fa";
 import UserContext from '../context/UserContext';
-import firebase from '../js/config';
+import firebase from '../firebase/config';
 import { useHistory } from 'react-router-dom';
 
 const Header = () => {

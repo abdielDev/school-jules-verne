@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import UserContext from '../context/UserContext';
 import PopUp from './PopUp';
-import firebase from '../js/config';
+import firebase from '../firebase/config';
 import SubjectContext from '../context/SubjectContext';
 
 const PopUpResume = ({ selected, setSubjectSelected, setShowModal }) => {

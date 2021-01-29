@@ -5,7 +5,7 @@ import '../styles/components/Input.scss';
 import '../styles/components/Button.scss';
 import { FaUser } from "react-icons/fa";
 import { IoIosLock } from "react-icons/io";
-import firebase from '../js/config';
+import firebase from '../firebase/config';
 import UserContext from '../context/UserContext';
 import { Link, useHistory } from 'react-router-dom';
 

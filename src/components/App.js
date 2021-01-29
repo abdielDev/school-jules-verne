@@ -8,7 +8,7 @@ import UserContext from '../context/UserContext';
 import { useEffect, useState } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Login from './Login';
-import firebase from '../js/config.js';
+import firebase from '../firebase/config';
 import SubjectContext from '../context/SubjectContext';
 
 function App() {
