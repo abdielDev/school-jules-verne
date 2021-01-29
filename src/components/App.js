@@ -1,15 +1,15 @@
-import './styles/reset.scss';
-import './styles/App.scss';
-import Header from './components/Header';
-import SubjectList from './components/SubjectList';
-import Footer from './components/Footer';
-import Register from './components/Register';
-import UserContext from './context/UserContext';
+import '../styles/reset.scss';
+import '../styles/App.scss';
+import Header from './Header';
+import SubjectList from './SubjectList';
+import Footer from './Footer';
+import Register from './Register';
+import UserContext from '../context/UserContext';
 import { useEffect, useState } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Login from './components/Login';
-import firebase from './js/config';
-import SubjectContext from './context/SubjectContext';
+import Login from './Login';
+import firebase from '../js/config';
+import SubjectContext from '../context/SubjectContext';
 
 function App() {
 
