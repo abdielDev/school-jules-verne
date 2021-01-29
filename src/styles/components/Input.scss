@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.input {
+  background-color: #F1F1F1;
+  position: relative;
+  padding: 8px 10px 8px 60px;
+  border-radius: 4px;
+  width: 200px;
+  font-size: 1rem;
+  input {
+    width: 100%;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+    font-weight: bold;
+    font-family: $font-Roboto;
+    font-size: 1rem;
+  }
+  svg {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #6F6F6F;
+  }
+}

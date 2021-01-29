@@ -1,0 +1,42 @@
+@import '../variables.scss';
+
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px - 158px);
+  &-container {
+    text-align: center;
+    .logo {
+      text-align: center;
+      margin-bottom: 40px;
+      &-name {
+        h2 {
+          font-family: $font-BrandonGrotesque;
+          color: $color-darkblue;
+          font-size: 1.8rem;
+          text-transform: uppercase;
+          &:first-child {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .input {
+      margin-bottom: 20px;
+    }
+    .btn {
+      margin-bottom: 10px;
+    }
+    a {
+      display: block;
+      color: $color-blue;
+      font-size: 0.8rem;
+      font-family: $font-Roboto;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

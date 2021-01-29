@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+.App {
+  background-color: white;
+  &-header {
+    background-color: $color-blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+.wrapped {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+}

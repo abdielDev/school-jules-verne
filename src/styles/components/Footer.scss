@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.App-footer {
+  padding: 40px 0;
+  background-color: #BB5652;
+  display: flex;
+  justify-content: space-between;
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    a {
+      font-size: 0.8rem;
+      font-family: $font-Roboto;
+      color: white;
+      text-decoration: none;
+      &:first-child {
+        font-weight: bold;
+      }
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .footer-social {
+    a {
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      border-radius: 2px;
+      padding: 2px;
+      color: white;
+      text-decoration: none;
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+    &-instagram {
+      background-color: #EA4D76;
+    }
+    &-facebook {
+      background-color: #1877F2;
+    }
+    &-twitter {
+      background-color: #28A1F2;
+    }
+    &-youtube {
+      background-color: #EB402B;
+    }
+  }
+}

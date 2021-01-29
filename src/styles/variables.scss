@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: local('BrandonGrotesque'), url(../fonts/transat_standard-webfont.woff) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$font-BrandonGrotesque: 'BrandonGrotesque';
+$font-Roboto: 'Roboto', sans-serif;
+$font-Helvetica: 'Helvetica';
+
+$color-blue: #273D71;
+$color-darkblue: #1F315A;
+$color-font: #424242;

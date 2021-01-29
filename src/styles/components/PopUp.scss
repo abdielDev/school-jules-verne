@@ -1,0 +1,65 @@
+@import '../variables.scss';
+
+.PopUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  &-container {
+    width: 40%;
+    padding: 40px 120px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    font-family: $font-Roboto;
+    color: $color-font;
+    box-sizing: border-box;
+    transform: translate(0, 0);
+  }
+  .error {
+    color: red;
+  }
+  .success {
+    &:first-of-type {
+      font-size: 6rem;
+      padding-top: 70px;
+      color: #6AD396;
+    }
+    &:not(:first-of-type) {
+      padding-bottom: 70px;
+    }
+    margin-bottom: 10px;
+  }
+  .close {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    font-size: 1rem;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 60px;
+  }
+  h3 {
+    &:last-of-type {
+      margin-bottom: 40px;
+    }
+    &:not(:last-of-type) {
+      margin-bottom: 10px;
+    }
+    span {
+      font-weight: bold;
+    }
+  }
+}
